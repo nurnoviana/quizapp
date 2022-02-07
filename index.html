@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="gradient">
+        <div class="start-btn"><button>Mulai Kuis</button></div>
+
+        <!-- Box Info -->
+        <div class="info-box">
+            <div class="info-title">
+                <span>Ketentuan Kuis</span>
+            </div>
+            <div class="info-list">
+                <div class="info">1. Kamu cuma punya <span>15 detik</span> untuk menjawab setiap pertanyaan.</div>
+                <div class="info">2. Setelah kamu memilih jawaban, kamu gak bisa pilih ulang jawaban kamu.</div>
+                <div class="info">3. Kamu gak bisa keluar saat kamu memulai kuis ini.</div>
+                <div class="info">4. Kamu akan mendapat <span>1 poin</span> setiap jawaban kamu benar.</div>
+            </div>
+            <div class="buttons">
+                <button class="quit">Keluar</button>
+                <button class="restart">Lanjutkan</button>
+            </div>
+        </div>
+    
+        <div class="quiz-box">
+            <header>
+                <div class="title">Kuis Mendadak</div>
+                <div class="timer">
+                    <div class="timer-text">Sisa Waktu</div>
+                    <div class="timer-sec">15</div>
+                </div>
+                <div class="time-line"></div>
+            </header>
+            <section>
+                <div class="que-text">
+                    <!-- <span>Kepanjangan dari HTML adalah...</span> -->
+                </div>
+                <div class="option-list">
+                    <!-- <div class="option">
+                        <span>Hyper Text Markup Language</span>
+                        <div class="icon tick"><i class='bx bx-check-circle'></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Tell Multi Language</span>
+                        <div class="icon cross"><i class='bx bx-x-circle'></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text PreProcessor</span>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Multiple Language</span>
+                    </div> -->
+                </div>
+            </section>
+            <footer>
+                <div class="total-que">
+                    <!-- <span><p>2</p>dari<p>5</p>pertanyaan</span> -->
+                </div>
+                <button class="next-btn">Pertanyaan Selanjutnya</button>
+            </footer>
+        </div>
+    
+        <div class="result-box">
+            <div class="icon"><i class='bx bx-crown' ></i></div>
+            <div class="complete-text">Kamu telah menyelesaikan kuis ini!</div>
+            <div class="score-text">
+                <!-- <span>Maaf, kamu dapat skor <p>2</p> dari <p>5</p> soal</span> -->
+            </div>
+            <div class="buttons">
+                <button class="restart">Ulangi</button>
+                <button class="quit">Keluar</button>
+            </div>
+        </div>
+    
+    </div>
+    <!-- Start Quiz Button -->
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
